@@ -11,7 +11,10 @@ Usage:
     1. Edit sync_git.sh
     2. Replace or add more array for git_proj_folder, git_folder_branch, git_remote_project
        variables.
-    3. sh ./sync_git.sh {folder_path}
+    3. `git_proj_folder`:  Git project folder name(sometimes equals project name).
+    4. `git_folder_branch`: Git project branch name
+    5. `git_remote_project`: Git project repository alias name, usually called "origin" or "upstream"
+    6. sh ./sync_git.sh {folder_path}
 ```
 
 ## Example
