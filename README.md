@@ -14,7 +14,7 @@ Usage:
     3. `git_proj_folder`:  Git project folder name(sometimes equals project name).
     4. `git_folder_branch`: Git project branch name
     5. `git_remote_project`: Git project repository alias name, usually called "origin" or "upstream"
-    6. sh ./sync_git.sh {folder_path}
+    6. sh ./sync_git.sh path[absolute path or relative path or filename]
 ```
 
 ## Example
@@ -48,3 +48,7 @@ git_remote_project[1]='tom'
 git_remote_project[2]='origin'
 git_remote_project[3]='upstream'
 ```
+
+### Screenshot
+---------------------
+![sync_git](https://cloud.githubusercontent.com/assets/1259324/20429429/884ffb18-adc9-11e6-8af7-8cbcd6509aa7.png)
